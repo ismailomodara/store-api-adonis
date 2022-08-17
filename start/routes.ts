@@ -25,3 +25,4 @@ Route.get('/', async () => {
 })
 
 Route.resource('/api/v1/statuses', 'StatusesController').apiOnly()
+Route.resource('/api/v1/companies', 'CompaniesController').apiOnly()

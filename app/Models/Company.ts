@@ -11,6 +11,9 @@ export default class Company extends BaseModel {
   @column()
   public email: string
 
+  @column()
+  public statusId: number
+
   @column.dateTime({ autoCreate: true })
   public createdAt: DateTime
 
