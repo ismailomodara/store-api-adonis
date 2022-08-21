@@ -31,3 +31,6 @@ Route.get('/api/v1', () => {
 })
 Route.resource('/api/v1/statuses', 'StatusesController').apiOnly()
 Route.resource('/api/v1/companies', 'CompaniesController').apiOnly()
+Route.resource('/api/v1/products', 'ProductsController').apiOnly()
+
+Route.post('/api/v1/products/bulk', 'ProductsController.storeMany')

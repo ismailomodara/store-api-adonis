@@ -5,6 +5,21 @@ export default class Product extends BaseModel {
   @column({ isPrimary: true })
   public id: number
 
+  @column()
+  public name: string
+
+  @column()
+  public price: number
+
+  @column()
+  public rating: number
+
+  @column()
+  public statusId: number
+
+  @column()
+  public companyId: number
+
   @column.dateTime({ autoCreate: true })
   public createdAt: DateTime
 

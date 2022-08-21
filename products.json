@@ -1,0 +1,132 @@
+[
+  {
+    "name": "accent chair",
+    "price": 25,
+    "rating": 4,
+    "company_id": 3
+  },
+  {
+    "name": "albany sectional",
+    "price": 109,
+    "rating": 5,
+    "company_id": 2
+
+  },
+  {
+    "name": "albany table",
+    "price": 309,
+    "rating": 4.9,
+    "company_id": 2
+  },
+  {
+    "name": "armchair",
+    "price": 125,
+    "rating": 4.8,
+    "company_id": 3
+  },
+  {
+    "name": "bar stool",
+    "price": 40,
+    "rating": 4.6,
+    "company_id": 2
+  },
+  {
+    "name": "dining table",
+    "price": 42,
+    "rating": 4.55,
+    "company_id": 1
+  },
+  {
+    "name": "emperor bed",
+    "price": 23,
+    "company_id": 1,
+    "status_id": 2
+  },
+  {
+    "name": "entertainment center",
+    "price": 59,
+    "company_id": 4,
+    "status_id": 1
+  },
+  {
+    "name": "high-back bench",
+    "price": 39,
+    "company_id": 1,
+    "status_id": 1
+  },
+  {
+    "name": "leather sofa",
+    "price": 99,
+    "company_id": 4
+  },
+  {
+    "name": "modern bookshelf",
+    "price": 31,
+    "company_id": 4,
+    "status_id": 1
+  },
+  {
+    "name": "modern poster",
+    "price": 30,
+    "company_id": 2
+  },
+  {
+    "name": "shelf",
+    "price": 30,
+    "company_id": 1
+  },
+  {
+    "name": "simple chair",
+    "price": 109,
+    "company_id": 2
+  },
+  {
+    "name": "sofa set",
+    "price": 129,
+    "company_id": 3
+  },
+  {
+    "name": "suede armchair",
+    "price": 15,
+    "company_id": 4
+  },
+  {
+    "name": "utopia sofa",
+    "price": 79,
+    "company_id": 2,
+    "status_id": 1
+  },
+  {
+    "name": "vase table",
+    "price": 120,
+    "company_id": 3,
+    "status_id": 1
+  },
+  {
+    "name": "wooden bed",
+    "price": 25,
+    "company_id": 1
+  },
+  {
+    "name": "wooden desk",
+    "price": 15,
+    "company_id": 1
+  },
+  {
+    "name": "wooden desk",
+    "price": 40,
+    "company_id": 1
+  },
+  {
+    "name": "wooden table",
+    "price": 23,
+    "status_id": 1,
+    "company_id": 4
+  },
+  {
+    "name": "a first wooden table",
+    "price": 23,
+    "company_id": 4,
+    "status_id": 1
+  }
+]
