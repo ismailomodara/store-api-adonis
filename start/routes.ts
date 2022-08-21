@@ -24,5 +24,10 @@ Route.get('/', async () => {
   return { hello: 'world' }
 })
 
+Route.get('/api/v1', () => {
+  return {
+    message: 'API Warehouse',
+  }
+})
 Route.resource('/api/v1/statuses', 'StatusesController').apiOnly()
 Route.resource('/api/v1/companies', 'CompaniesController').apiOnly()

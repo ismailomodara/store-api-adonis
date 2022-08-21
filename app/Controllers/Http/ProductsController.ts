@@ -2,7 +2,7 @@ import type { HttpContextContract } from '@ioc:Adonis/Core/HttpContext'
 import Company from 'App/Models/Company'
 import { DateTime } from 'luxon'
 
-export default class StatusesController {
+export default class ProductsController {
   public async index() {
     const companies = await Company.all()
     return {
