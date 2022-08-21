@@ -14,9 +14,16 @@ export default class ProductsController {
      */
     Products.where('status_id', '!=', 3)
 
-    const { page, limit, order, range, fields } = request.qs()
+    const { search, page, limit, order, range, fields } = request.qs()
     const pageInt = Number(page) || 1
     const limitInt = Number(limit) || 10
+
+    /**
+     * Search
+     */
+    if (search) {
+      Products.where('name', 'LIKE', `%${search.toLowerCase()}%`)
+    }
 
     /**
      * Filter [Where] Properties
